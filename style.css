@@ -15,14 +15,19 @@ h1, img{
     vertical-align: middle;
 }
 
+.position-logotext{
+    padding: 20px;
+}
 
 .logotext{
     display: inline-block;
+    
 }
 
 .logo{
     background-color: white;
-    height: 150px;
+    height: 100px;
+    margin-bottom: 50px;
     
     
 }
@@ -113,3 +118,4 @@ ul{
 .upcoming{
     padding-bottom: 50px;
 }
+
