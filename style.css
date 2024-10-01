@@ -97,6 +97,7 @@ img{
     color: lightgrey;
     background-color:blue;
     border: 1px solid lightgrey;
+    padding: 7px;
 }   
 
 .button2{
@@ -104,6 +105,7 @@ img{
     color: lightgrey;
     border-radius:20%;
     border: 1px solid lightgrey;
+    padding: 7px;
 
 }   
 
