@@ -1,0 +1,62 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding-top: 5px;
+    
+}
+
+.body{
+    background-color: darkblue;
+}
+
+
+.logotext{
+    display: inline-block;
+}
+.logo{
+    background-color: white
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    background-color:white
+}
+
+.task li{
+    list-style: none;
+    
+}
+
+.today li{
+    list-style: none;
+    
+}
+
+.upcoming li{
+    list-style: none;
+    
+}
+
+.background{
+    border-radius:50%;
+    
+    padding: 2px;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background: blue;
+}
+
+.violet{
+    background: violet;
+}
