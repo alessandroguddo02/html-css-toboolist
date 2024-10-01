@@ -3,34 +3,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    padding-top: 5px;
-    
 }
 
 body{
     background-color:rgb(185, 185, 185);
-    
 }
 /*header*/
 
-header{
-    margin-top: 0;
-    padding-bottom: 100px;
-}
-h1{
+h1, img{
     display: inline-block;
     vertical-align: middle;
 }
 
-img{
-    vertical-align: middle;
-}
+
 .logotext{
     display: inline-block;
 }
+
 .logo{
     background-color: white;
-    height: 100px;
+    height: 150px;
     
     
 }
@@ -41,20 +33,9 @@ img{
     width: 80%;
     margin: auto;
     background-color:white;
-    padding-left: 5%;
 }
 
-.task li{
-    list-style: none;
-    
-}
-
-.today li{
-    list-style: none;
-    
-}
-
-.upcoming li{
+.upcoming li, .today li, .task li{
     list-style: none;
     
 }
@@ -85,14 +66,14 @@ img{
 .orange{
     background-color: orange;
 }
+
 .choice{
-    
     padding-left: 5%;
     padding: 50px;
     
 }
 
-.button{
+.button, .button2{
     border-radius:20%;
     color: lightgrey;
     background-color:blue;
@@ -103,10 +84,6 @@ img{
 .button2{
     background-color: white;
     color: lightgrey;
-    border-radius:20%;
-    border: 1px solid lightgrey;
-    padding: 7px;
-
 }   
 
 ul li{
@@ -118,7 +95,7 @@ ul{
     display: block;
 }
 
-.not-verified{
+.not-verified, .verified{
     display: inline-block;
     border-radius: 50px;
     border: 2px solid red;
@@ -129,14 +106,9 @@ ul{
 }
 
 .verified{
-    display: inline-block;
-    border-radius: 50px;
     border: 2px solid green;
-    height: 30px;
-    width: 30px;
-    text-align: center;
-    font-size: 10px;
-}
+    }
+    
 
 .upcoming{
     padding-bottom: 50px;
